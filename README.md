@@ -1,3 +1,13 @@
+## Notes
+- `dfx new <project-name>`
+- `dfx start --clean`
+- `dfx canister create --all`
+- `dfx build`
+- `dfx canister install --all`
+- `dfx deploy` (dfx build -> dfx canister install --all )
+- ICP project creation cycle `create canister -> build -> deploy`
+- .dfc/local/canister_ids.json contains id canisters
+
 # candid_ui_demo
 
 Welcome to your new candid_ui_demo project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
