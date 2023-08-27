@@ -14,7 +14,8 @@
     "start": "webpack serve --mode development --env development",
     "deploy:local": "dfx deploy --network=local",
     "deploy:ic": "dfx deploy --network=ic",
-    "generate": "dfx generate candid_ui_demo_backend"
+    "generate": "dfx generate candid_ui_demo_backend",
+    "start:clean": "dfx start --clean"
   },
   "dependencies": {
     "@dfinity/agent": "^0.19.2",
