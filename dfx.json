@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "candid_ui_demo_backend": {
+      "main": "src/candid_ui_demo_backend/main.mo",
+      "type": "motoko"
+    },
+    "candid_ui_demo_frontend": {
+      "dependencies": [
+        "candid_ui_demo_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/candid_ui_demo_frontend/src/index.html"
+      },
+      "source": [
+        "src/candid_ui_demo_frontend/assets",
+        "dist/candid_ui_demo_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
