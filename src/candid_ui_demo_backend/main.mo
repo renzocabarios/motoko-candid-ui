@@ -6,5 +6,9 @@ actor {
     message;
   };
 
+  public query func greet2() : async Text {
+    message # "2";
+  };
+
   };
 };
