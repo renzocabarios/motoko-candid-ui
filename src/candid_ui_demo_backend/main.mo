@@ -10,5 +10,8 @@ actor {
     message # "2";
   };
 
+  public func changeMessage(_message : Text) : async () {
+    message := _message;
   };
+
 };
